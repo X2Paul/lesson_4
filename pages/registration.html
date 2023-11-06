@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+    <h1>Registration</h1>
+
+    <nav>
+      <a href="../index.html">Main page</a>
+      <a href="articles.htmlq">Articles</a>
+      <a href="catalog.html">Catalog</a>
+      <a href="contacts.html">Contacts</a>
+      <a href="gallary.html">Gallary</a>
+      <a href="page-nav.html">Navigation</a>
+      <a>Registration</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+      <fieldset>
+        <legend>Your personal data</legend>
+        <div>
+          <label for="name">Name</label>
+          <input name="name" id="name" type="text" placeholder="Name">
+        </div>
+        <div>
+          <label for="mail">Mail</label>
+          <input name="mail" id="mail" type="email" placeholder="Mail">
+        </div>
+        <div>
+          <label for="password">Your password</label>
+          <input name="password" id="password" type="tel" placeholder="Enter your password">
+        </div>
+        <div>
+          <label for="file">Photo</label>
+          <input name="file" id="file" type="file">
+        </div>
+        <div>
+          <label for="website">Your website</label>
+          <input id="website" name="website" type="text" placeholder="mysite.name">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sex</legend>
+        <div>
+          <input type="radio" name="sex" id="sex1" value="male">
+          <label for="sex1">Male</label>
+        </div>
+        <div>
+          <input type="radio" name="sex" id="sex2" value="female">
+          <label for="sex2">Female</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>birthday</legend>
+        <div>
+          <label for="year">Choose year</label>
+          <select name="year" id="year">
+            <option selected disabled value="">Year</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+          </select>
+        </div>
+        <div>
+          <label for="list">Month</label>
+          <select name="month" id="list">
+            <option selected disabled value="">Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+        </div>
+        <div>
+          <label for="day">Enter day</label>
+          <input name="day" id="day" type="text" placeholder="Enter day">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Choose kitchen</legend>
+        <div>
+          <input name="italy-kitchen" checked id="it" type="checkbox">
+          <label for="it">Italy kitchen</label>
+        </div>
+        <div>
+          <input name="germany-kitchen" checked id="ger" type="checkbox">
+          <label for="ger">Germany kitchen</label>
+        </div>
+        <div>
+          <input name="usa-kitchen" checked id="usa" type="checkbox">
+          <label for="usa">USA kitchen</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>About you</legend>
+        <div>
+          <label for="txt">About</label>
+          <textarea name="question" id="txt" cols="30" rows="10" placeholder="About you"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Control</legend>
+        <div>
+          <button type="submit">submit</button>
+          <button type="reset">clear</button>
+        </div>
+      </fieldset>
+    </form>
+  </main>
+  
+  <footer>
+    <div>&copy; Zinchenko Pavlo</div>
+  </footer>
+</body>
+
+</html>
